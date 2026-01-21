@@ -18,7 +18,7 @@ int main(){
     for(int i=0; i<n; i++){
         cin>>arr[i];
     }
-    selection_sort(arr, n);
+    selection_sort(arr, n); //selection sort function call
     for(int i=0; i<n; i++){
         cout<<arr[i]<<" ";
     }
